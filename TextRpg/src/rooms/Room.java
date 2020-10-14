@@ -16,7 +16,7 @@ public class Room {
 	private Room west = null;
 	private Room east = null;
 	private ArrayList<Creature> enemies = new ArrayList<Creature>();
-	private ArrayList<Item> items = new ArrayList<Item>();
+	private ArrayList<Item> items = new ArrayList<Item>(); //items
 	
 	
 	public Room(String description, String roomType) {

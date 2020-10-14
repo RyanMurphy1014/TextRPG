@@ -27,6 +27,7 @@ public class Map {
 		
 	}
 	/**
+	 * Sets the pathway leading form one room to another.
 	 * 
 	 * @param from - The room the player would currently be in
 	 * @param to - The room the player will travel to
