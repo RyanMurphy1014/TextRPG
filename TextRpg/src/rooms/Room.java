@@ -3,6 +3,7 @@ package rooms;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import items.Item;
 import root.Creature;
 
 public class Room {
@@ -15,6 +16,7 @@ public class Room {
 	private Room west = null;
 	private Room east = null;
 	private ArrayList<Creature> enemies = new ArrayList<Creature>();
+	private ArrayList<Item> items = new ArrayList<Item>();
 	
 	
 	public Room(String description, String roomType) {
@@ -166,6 +168,14 @@ public class Room {
 
 	public void setEast(Room east) {
 		this.east = east;
+	}
+
+	public ArrayList<Item> getItems() {
+		return items;
+	}
+
+	public void setItems(ArrayList<Item> items) {
+		this.items = items;
 	}
 	
 	
