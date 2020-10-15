@@ -13,9 +13,14 @@ public class Runner {
 	public static void main(String [] args) {
 		
 		
+		/*
+		 * Uncomment line 19 to use a premade character and comment line 20.
+		 */
+		//Player player = new Player(15, 0, 15, "Ryan", "Human", WeaponList.ironDagger, ArmorList.leather);
+		Player player = characterCreator();
 		
-				Player player = new Player(15, 0, 15, "Ryan", "Human", WeaponList.ironDagger, ArmorList.leather);
-		//Player player = characterCreator();
+				
+				
 		while(!gameOver) {
 			travel(player);
 		}
