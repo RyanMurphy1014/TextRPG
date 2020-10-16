@@ -26,7 +26,13 @@ public class Map {
 		
 		
 	}
-	
+	/**
+	 * Sets the pathway leading form one room to another.
+	 * 
+	 * @param from - The room the player would currently be in
+	 * @param to - The room the player will travel to
+	 * @param directionTraveling - What direction you have to travel out of the from room to get to the to room
+	 */
 	public void setRelation(Room from, Room to, String directionTraveling) {
 		switch(directionTraveling) {
 			case "east":

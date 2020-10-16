@@ -24,7 +24,7 @@ public class Player {
 	
 	public Player(int hp, int mp, int stam, String name, String race, Weapon weapon, Armor armor) {
 		this.map = new Map();
-		this.currentRoom = map.pond;
+		this.currentRoom = map.startingArea;
 		
 		
 		this.hp = hp;
